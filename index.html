@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarWeb</title>
+    <link rel="stylesheet" href="style1.css"> <!-- Style for Branch change as per wish-->
+</head>
+<body>
+    <!-- Page 1: Tata Nexon -->
+    <div class="car-page" id="car-page-1">
+        <h1 style="text-align: center;">Tata Nexon</h1>
+        <img src="img/Nexon.jpg" alt="Tata Nexon Image" style="display: block; margin: auto;">
+        <p style="text-align: center;">Price: ₹10,00,000</p>
+        <button onclick="buyCar(1)" style="display: block; margin: auto;">Buy</button>
+        <button onclick="showPage(2)" style="display: block; margin: auto; margin-top: 10px;">Next Car</button>
+    </div>
+
+    <!-- Page 2: Tata Harrier -->
+    <div class="car-page" id="car-page-2" style="display: none;">
+        <h1 style="text-align: center;">Tata Harrier</h1>
+        <img src="img/Harrier.jpg" alt="Tata Harrier Image" style="display: block; margin: auto;">
+        <p style="text-align: center;">Price: ₹15,00,000</p>
+        <button onclick="buyCar(2)" style="display: block; margin: auto;">Buy</button>
+        <button onclick="showPage(3)" style="display: block; margin: auto; margin-top: 10px;">Next Car</button>
+        <button onclick="showPage(1)" style="display: block; margin: auto; margin-top: 10px;">Previous Car</button>
+    </div>
+
+    <!-- Page 3: Tata Safari -->
+    <div class="car-page" id="car-page-3" style="display: none;">
+        <h1 style="text-align: center;">Tata Safari</h1>
+        <img src="img/Safari.jpeg" alt="Tata Safari Image" style="display: block; margin: auto;">
+        <p style="text-align: center;">Price: ₹20,00,000</p>
+        <button onclick="buyCar(3)" style="display: block; margin: auto;">Buy</button>
+        <button onclick="showPage(1)" style="display: block; margin: auto; margin-top: 10px;">Previous Car</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
