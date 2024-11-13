@@ -1,0 +1,3 @@
+[submodule "CarWeb-Styles"]
+	path = CarWeb-Styles
+	url = https://github.com/yagna17/CarWeb-Styles.git
