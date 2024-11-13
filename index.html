@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CarWeb</title>
-    <!-- Link to the CSS file in the submodule -->
-    <link id="car-style" rel="stylesheet" href="styles/style.css">
+    <!-- Link to the CSS file in the submodule helps to change styles-->
+    <link id="car-style" rel="stylesheet" href="CarWeb-Styles/style1.css">
 </head>
 <body>
     <!-- Page 1: Tata Nexon -->
@@ -13,7 +13,7 @@
         <h1 style="text-align: center;">Tata Nexon</h1>
         <img src="img/Nexon.jpg" alt="Tata Nexon Image" style="display: block; margin: auto;">
         <p style="text-align: center;">Price: ₹10,00,000</p>
-        <button onclick="buyCar(1)" style="display: block; margin: auto;">Buy</button>
+        <button onclick="buyCar('Tata Nexon')" style="display: block; margin: auto;">Buy</button>
         <button onclick="showPage(2)" style="display: block; margin: auto; margin-top: 10px;">Next Car</button>
     </div>
 
@@ -22,7 +22,7 @@
         <h1 style="text-align: center;">Tata Harrier</h1>
         <img src="img/Harrier.jpg" alt="Tata Harrier Image" style="display: block; margin: auto;">
         <p style="text-align: center;">Price: ₹15,00,000</p>
-        <button onclick="buyCar(2)" style="display: block; margin: auto;">Buy</button>
+        <button onclick="buyCar('Tata Harrier')" style="display: block; margin: auto;">Buy</button>
         <button onclick="showPage(3)" style="display: block; margin: auto; margin-top: 10px;">Next Car</button>
         <button onclick="showPage(1)" style="display: block; margin: auto; margin-top: 10px;">Previous Car</button>
     </div>
@@ -32,8 +32,8 @@
         <h1 style="text-align: center;">Tata Safari</h1>
         <img src="img/Safari.jpeg" alt="Tata Safari Image" style="display: block; margin: auto;">
         <p style="text-align: center;">Price: ₹20,00,000</p>
-        <button onclick="buyCar(3)" style="display: block; margin: auto;">Buy</button>
-        <button onclick="showPage(1)" style="display: block; margin: auto; margin-top: 10px;">Previous Car</button>
+        <button onclick="buyCar('Tata Safari')" style="display: block; margin: auto;">Buy</button>
+        <button onclick="showPage(2)" style="display: block; margin: auto; margin-top: 10px;">Previous Car</button>
     </div>
 
     <script src="script.js"></script>
